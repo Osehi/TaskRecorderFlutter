@@ -73,11 +73,29 @@ class _TODOAppState extends State<TODOApp> {
               ))
               ]
               
+            ),
+            Column(
+              children: [
+                Container(
+                  height: 50,
+                  width: 50,
+                  decoration: BoxDecoration(
+                    border:Border.all(
+                      color:Colors.black,
+                    ),
+                  borderRadius: BorderRadius.circular(10.0)
+                  ),
+                child: Icon(Icons.add),
+                )
+              ]
             )
+          
           ],
         ),
       ),
     );
   }
+
+  
 
 }
